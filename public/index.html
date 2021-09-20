@@ -25,17 +25,57 @@
     <h1 class="center-align">The game</h1>
     <div class="divider"></div>
     <div id="app" class="container z-depth-5">
-      <div class="row">
-        <div class="col s2 center-align">
-          <a href="#a" class="btn btn-block">a</a>
-        </div>
-        <div class="col s2 center-align btn">b</div>
-        <div class="col s2 center-align">c</div>
-        <div class="col s2 center-align">d</div>
-        <div class="col s2 center-align">e</div>
-        <div class="col s2 center-align">f</div>
+      <div
+        class="row center-align black white-text word-display"
+        id="word-display"
+      ></div>
+      <div class="container blue lighten-4 center-align letter-container">
+        <a
+          href="#"
+          class="btn-floating center-align"
+          id="letter-btn"
+          onclick="addLetter(this)"
+          >a</a
+        >
+        <a
+          href="#"
+          class="btn-floating center-align"
+          id="letter-btn"
+          onclick="addLetter(this)"
+          >b</a
+        >
+        <a
+          href="#"
+          class="btn-floating center-align"
+          id="letter-btn"
+          onclick="addLetter(this)"
+          >c</a
+        >
+        <a
+          href="#"
+          class="btn-floating center-align"
+          id="letter-btn"
+          onclick="addLetter(this)"
+          >d</a
+        >
+        <a
+          href="#"
+          class="btn-floating center-align"
+          id="letter-btn"
+          onclick="addLetter(this)"
+          >e</a
+        >
+        <a
+          href="#"
+          class="btn-floating center-align"
+          id="letter-btn"
+          onclick="addLetter(this)"
+          >f</a
+        >
       </div>
-      <a href="#" class="btn waves-effect">hello</a>
+      <a href="#" class="btn waves-effect">submit</a>
+      <a href="#" class="btn waves-effect">delete</a>
+      <a href="#" class="btn waves-effect" onclick="clearDisplay()">clear</a>
     </div>
 
     <!--JavaScript at end of body for optimized loading-->

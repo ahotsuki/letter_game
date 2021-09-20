@@ -1,4 +1,17 @@
 #app {
   width: 800px;
-  height: 600px;
+  height: 500px;
+  position: relative;
+}
+
+.word-display {
+  width: 60%;
+  display: flex;
+  height: 3em;
+  justify-content: center;
+  align-items: center;
+}
+
+.letter-container {
+  width: 50%;
 }
